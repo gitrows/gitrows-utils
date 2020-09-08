@@ -1,0 +1,12 @@
+{
+  "name": "@gitrows/gitrows-utils",
+  "version": "0.0.1",
+  "description": "Data and string handling utilities for @gitrows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gitrows","data","string","github"],
+  "author": "@nicolaszimmer",
+  "license": "MIT"
+}
