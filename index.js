@@ -4,6 +4,7 @@ const _number=require('./lib/number.js');
 const _ddba=require('./lib/ddba.js');
 const _event=require('./lib/event.js');
 const _s3=require('./lib/s3.js');
+const _speed=require('./lib/speed.js');
 
 module.exports={
 	DataHandler:_data,
@@ -12,5 +13,6 @@ module.exports={
 	ddba:_ddba,
 	Event:_event,
 	S3:_s3,
+	Speed:_speed,
 	Core:{..._data,..._string,..._number,..._event}
 }
