@@ -5,6 +5,7 @@ const _ddba=require('./lib/ddba.js');
 const _event=require('./lib/event.js');
 const _s3=require('./lib/s3.js');
 const _speed=require('./lib/speed.js');
+const _split=require('./lib/split.js');
 
 module.exports={
 	DataHandler:_data,
@@ -14,5 +15,6 @@ module.exports={
 	Event:_event,
 	S3:_s3,
 	Speed:_speed,
-	Core:{..._data,..._string,..._number,..._event}
+	Core:{..._data,..._string,..._number,..._event},
+	Split:_split
 }
