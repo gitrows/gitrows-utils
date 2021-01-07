@@ -1,6 +1,6 @@
 {
   "name": "@gitrows/gitrows-utils",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Data and string handling utilities for @gitrows",
   "main": "index.js",
   "scripts": {
