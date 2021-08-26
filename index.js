@@ -6,6 +6,7 @@ const _event=require('./lib/event.js');
 const _s3=require('./lib/s3.js');
 const _speed=require('./lib/speed.js');
 const _split=require('./lib/split.js');
+const _geo=require('./lib/geo.js');
 
 module.exports={
 	DataHandler:_data,
@@ -16,5 +17,6 @@ module.exports={
 	S3:_s3,
 	Speed:_speed,
 	Core:{..._data,..._string,..._number,..._event},
-	Split:_split
+	Split:_split,
+	Geo:_geo
 }
